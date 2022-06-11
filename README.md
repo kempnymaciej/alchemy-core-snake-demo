@@ -6,9 +6,9 @@ This repository contains a heavily commented project that demonstrates a use of 
 2. Run the project with Unity 2021.3.2f1 (or any 2020+)
 
 # Manual
-The purpose of creating this project was to present various aspects of the [AlchemyBow.Core] framework. Feel free to explore it.
+The purpose of creating this project was to present various features of the [AlchemyBow.Core] framework. Feel free to explore it.
 
-If you're looking for an example of a specific feature, here's the list (All path are relative to the `Assets` folder.):
+If you're looking for an example of a specific feature, here's a list (all path are relative to the `Assets` folder):
 1. CoreProjectContext
     * .../\_Scripts/Core/Elements/SnakeGameProjectContext.cs
     * .../Resources/Core/SnakeGameProjectContext.prefab
@@ -31,7 +31,7 @@ If you're looking for an example of a specific feature, here's the list (All pat
     * .../\_Scripts/Core/SceneTriggers/ ...
 6. States
     * .../\_Scripts/Core/Elements/GameScene/GameSceneCoreController.cs
-    * .../\_Scripts/Core/Elements/GameScene/ ...
+    * .../\_Scripts/Core/Elements/GameScene/States/ ...
     * .../\_Scripts/Core/StateConditions/ ...
 7. Bind<T>(T value)
     * .../\_Scripts/ViewControllers/Installers/GameSceneViewControllersInstaller.cs

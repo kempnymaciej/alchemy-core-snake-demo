@@ -1,0 +1,66 @@
+# =============== #
+# Unity generated #
+# =============== #
+/ABCoreDemo/[Bb]uild/
+/ABCoreDemo/[Bb]uilds/
+/ABCoreDemo/[Tt]emp/
+/ABCoreDemo/[Oo]bj/
+/ABCoreDemo/UnityGenerated/
+/ABCoreDemo/Assets/Plugins/UniMerge/
+/ABCoreDemo/Assets/Plugins/UniMerge.meta
+/ABCoreDemo/[Ll]ibrary/
+/ABCoreDemo/[Ll]ogs/**
+/ABCoreDemo/[Uu]ser[Ss]ettings/
+/ABCoreDemo/Assets/AssetStoreTools*
+sysinfo.txt
+*.stackdump
+*.pidb.meta
+
+# ===================================== #
+# Visual Studio / MonoDevelop generated #
+# ===================================== #
+/ABCoreDemo/.consulo/
+/ABCoreDemo/.vs/
+/ABCoreDemo/ExportedObj/
+*.svd
+*.userprefs
+*.csproj
+*.pidb
+*.suo
+*.sln
+*.user
+*.unityproj
+*.booproj
+*.tmp
+*.pdb
+
+# ============ #
+# OS generated #
+# ============ #
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+Icon?
+ehthumbs.db
+[Tt]humbs.db
+[Dd]esktop.ini
+
+# =============== #
+#      Other      #
+# =============== #
+*.orig
+*.orig.meta
+*.unitypackage
+*.apk
+
+# =============== #
+#    Whiteboard   #
+# =============== #
+ABCoreDemo/.vs/ABCoreDemo/v15/Server/sqlite3/storage.ide
+ABCoreDemo/.vs/ABCoreDemo/v15/Server/sqlite3/storage.ide-wal
+ABCoreDemo/.vs/ABCoreDemo/v15/Server/sqlite3/storage.ide-shmABCoreDemo/.vs/ABCoreDemo/v16/Server/sqlite3/storage.ide
+ABCoreDemo/.vs/ABCoreDemo/v16/Server/sqlite3/storage.ide-wal
+ABCoreDemo/.vs/ABCoreDemo/v16/Server/sqlite3/storage.ide-shm
+ABCoreDemo/.vs/ABCoreDemo/DesignTimeBuild/.dtbcache

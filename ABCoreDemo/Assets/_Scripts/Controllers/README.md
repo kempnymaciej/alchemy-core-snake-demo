@@ -1,0 +1,1 @@
+This folder contains controllers. The controllers operate on systems and avatars.

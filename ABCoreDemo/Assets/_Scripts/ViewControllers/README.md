@@ -1,0 +1,1 @@
+This folder contains view controllers (MVC) and installers used to bind them to specific scenes.

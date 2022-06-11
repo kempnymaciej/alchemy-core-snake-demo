@@ -1,0 +1,1 @@
+This folder contains simple and independent animations in the form of `MonoBehaviours`s.

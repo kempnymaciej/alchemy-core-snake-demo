@@ -1,0 +1,1 @@
+This folder contains views (MVC) as well as a basic view and installer which allows you to install multiple views at once.

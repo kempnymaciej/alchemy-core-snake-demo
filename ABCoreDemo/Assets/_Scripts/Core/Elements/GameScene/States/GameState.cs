@@ -121,5 +121,11 @@ namespace AlchemyBow.CoreDemos.Core.Elements
             scoreSystem.CheckAndUpdateBestScore(snakeSystem.Snake.Count, tickSystem.TickIndex);
         }
         #endregion
+
+        // Override ToString () for better debug printing.
+        public override string ToString()
+        {
+            return GetType().Name;
+        }
     }
 }

@@ -60,5 +60,11 @@ namespace AlchemyBow.CoreDemos.Core.Elements
                 snakeSystem.Move((Vector2Int)snakePreviousDirection);
             }
         }
+
+        // Override ToString () for better debug printing.
+        public override string ToString()
+        {
+            return GetType().Name;
+        }
     }
 }

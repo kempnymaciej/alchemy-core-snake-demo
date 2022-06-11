@@ -79,6 +79,12 @@ namespace AlchemyBow.CoreDemos.Core.Elements
 
 #if UNITY_EDITOR
             gameComposer.Validate();
+            string paths = "Created a state graph with paths: (click to expand)\n";
+            foreach (var path in gameComposer.GetGraphPaths())
+            {
+                paths += path + "\n";
+            }
+            UnityEngine.Debug.Log(paths);
 #endif
             return StateGraph.Build(gameComposer);
         }

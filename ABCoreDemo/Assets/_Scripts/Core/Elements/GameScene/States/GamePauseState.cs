@@ -20,5 +20,11 @@ namespace AlchemyBow.CoreDemos.Core.Elements
         {
             gamePauseViewController.SetActive(false);
         }
+
+        // Override ToString () for better debug printing.
+        public override string ToString()
+        {
+            return GetType().Name;
+        }
     }
 }

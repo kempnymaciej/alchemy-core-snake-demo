@@ -1,11 +1,11 @@
 {
   "dependencies": {
     "com.alchemybow.core": {
-      "version": "https://github.com/kempnymaciej/alchemy-core.git#second-release",
+      "version": "https://github.com/kempnymaciej/alchemy-core.git#v2.0.0",
       "depth": 0,
       "source": "git",
       "dependencies": {},
-      "hash": "676d028abd051fb5ecdc43fe99a6a6760297c5ca"
+      "hash": "5eaeb26ccf9092b3bf98dd4521a9a51b7249862f"
     },
     "com.alchemybow.loadingscenes": {
       "version": "https://github.com/kempnymaciej/alchemy-loadingscenes.git#v1.0.0",

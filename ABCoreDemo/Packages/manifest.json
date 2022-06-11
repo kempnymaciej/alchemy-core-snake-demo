@@ -1,6 +1,6 @@
 {
   "dependencies": {
-    "com.alchemybow.core": "https://github.com/kempnymaciej/alchemy-core.git#second-release",
+    "com.alchemybow.core": "https://github.com/kempnymaciej/alchemy-core.git#v2.0.0",
     "com.alchemybow.loadingscenes": "https://github.com/kempnymaciej/alchemy-loadingscenes.git#v1.0.0",
     "com.unity.ide.visualstudio": "2.0.15",
     "com.unity.textmeshpro": "3.0.6",

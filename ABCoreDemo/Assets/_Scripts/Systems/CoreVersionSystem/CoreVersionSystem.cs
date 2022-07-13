@@ -25,7 +25,6 @@ namespace AlchemyBow.CoreDemos.Systems
 
         public void Load(OperationHandle handle)
         {
-            Debug.LogFormat($"{GetType().Name}: <color=#ccffcc>Loading started.</color>");
             StartCoroutine(CreateLoadCoroutine(handle));
         }
 
@@ -42,7 +41,6 @@ namespace AlchemyBow.CoreDemos.Systems
                 }
             }
             handle.MarkDone();
-            Debug.LogFormat($"{GetType().Name}: <color=#ffffff>Loading finished.</color>");
         }
 
         /// <summary>

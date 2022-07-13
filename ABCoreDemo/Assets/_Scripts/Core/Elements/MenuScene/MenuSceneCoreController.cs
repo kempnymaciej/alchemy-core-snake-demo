@@ -35,7 +35,7 @@ namespace AlchemyBow.CoreDemos.Core.Elements
         private readonly GameTrigger gameTrigger;
 
         // You can add some extra delay after loading.
-        protected override float PostLoadingDelay => .2f;
+        protected override float PostLoadingDelay => .5f;
 
         protected override IEnumerable<ICoreLoadable> GetLoadables()
         {

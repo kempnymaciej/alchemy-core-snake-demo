@@ -23,6 +23,7 @@ namespace AlchemyBow.CoreDemos.Core.Elements
         {
             // The loading screen is activated (ensured) before anything else via a static interface.
             LoadingSceneUtility.EnsureLoadingSceneActive(true);
+            LoadingSceneUtility.SetLoadingText("Loading ...");
             base.OnStarted(operationHandle);
         }
 
@@ -31,6 +32,15 @@ namespace AlchemyBow.CoreDemos.Core.Elements
             base.OnBindingFinished();
             // The music is set before the loading stage.
             audioSystem.SetMusic(musicClip, false);
+        }
+
+        protected override void OnLoadablesProgressed(LoadablesProgress progress)
+        {
+            // You can use the progress to calculate the percentage progress.
+            int percent = progress.loadableIndex + (progress.loadableCompleted ? 1 : 0);
+            percent = (int)((percent / (float)progress.numberOfLoadables) * 100);
+            LoadingSceneUtility.SetLoadingText($"Loading {percent}%");
+            Debug.Log($"{progress.loadableIndex}/{progress.numberOfLoadables}: {progress.loadable} (complete={progress.loadableCompleted})");
         }
 
         protected override void OnLoadingFinished()

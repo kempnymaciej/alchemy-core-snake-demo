@@ -21,7 +21,6 @@ namespace AlchemyBow.CoreDemos.Systems
         #region ICoreLoadable
         public void Load(OperationHandle handle)
         {
-            Debug.LogFormat($"{GetType().Name}: <color=#ccffcc>Loading started.</color>");
             Task.Run(async () =>
             {
                 try
@@ -31,7 +30,6 @@ namespace AlchemyBow.CoreDemos.Systems
                 }
                 catch  { }
                 handle.MarkDone();
-                Debug.LogFormat($"{GetType().Name}: <color=#ffffff>Loading finished.</color>");
             });
         }
         #endregion

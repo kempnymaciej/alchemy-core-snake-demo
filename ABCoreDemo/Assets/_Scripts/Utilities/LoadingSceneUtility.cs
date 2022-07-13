@@ -1,4 +1,5 @@
 using AlchemyBow.LoadingScenes;
+using TMPro;
 
 namespace AlchemyBow.CoreDemos
 {
@@ -9,6 +10,7 @@ namespace AlchemyBow.CoreDemos
     public static class LoadingSceneUtility
     {
         private const string PrefabName = "LoadingSceneContent";
+        private static TMP_Text loadingSceneText;
 
         /// <summary>
         /// Ensures the loading screen is active / inactive.
@@ -19,11 +21,18 @@ namespace AlchemyBow.CoreDemos
             if (value)
             {
                 LoadingScene.EnsureActive(PrefabName);
+                loadingSceneText = LoadingScene.ActiveSceneContent.GetComponentInChildren<TMP_Text>();
             }
             else
             {
+                loadingSceneText = null;
                 LoadingScene.EnsureInactive();
             }
+        }
+
+        public static void SetLoadingText(string value)
+        {
+            loadingSceneText.text = value;
         }
     } 
 }

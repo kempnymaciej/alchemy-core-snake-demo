@@ -1,6 +1,5 @@
 using AlchemyBow.Core;
 using System.Threading.Tasks;
-using UnityEngine;
 
 namespace AlchemyBow.CoreDemos
 {
@@ -20,13 +19,15 @@ namespace AlchemyBow.CoreDemos
 
         public void Load(OperationHandle handle)
         {
-            Debug.LogFormat($"{GetType().Name} ({name}): <color=#ccffcc>Loading started.</color>");
             Task.Run(async () =>
             {
                 await Task.Delay(milisecondsDelay);
                 handle.MarkDone();
-                Debug.LogFormat($"{GetType().Name} ({name}): <color=#ffffff>Loading finished.</color>");
             });
+        }
+        public override string ToString()
+        {
+            return $"{GetType().Name}:{name}";
         }
     }
 }
